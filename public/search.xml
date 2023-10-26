@@ -1,6 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test1</title>
+    <url>/2023/10/24/test1/</url>
+    <content><![CDATA[<h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h1 id="这也是一级标题"><a href="#这也是一级标题" class="headerlink" title="这也是一级标题"></a>这也是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h2 id="这也是二级标题"><a href="#这也是二级标题" class="headerlink" title="这也是二级标题"></a>这也是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><!--分割线-->
+<hr>
+<p>&nbsp; <!--手动空行--><br>无序列表：</p>
+<ul>
+<li>1<ul>
+<li>1<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+</li>
+<li>2</li>
+<li>3</li>
+</ul>
+</li>
+<li>2</li>
+<li>3</li>
+</ul>
+<p>&nbsp;<br>有序列表：</p>
+<ol>
+<li>西瓜<ol>
+<li>红壤</li>
+<li>黄壤</li>
+</ol>
+</li>
+<li>香蕉</li>
+<li>菠萝</li>
+</ol>
+<p>&nbsp;<br>引用:</p>
+<blockquote>
+<p>毛泽东：实事求是</p>
+<blockquote>
+<p>这是很多学校的校训</p>
+</blockquote>
+</blockquote>
+<p>&nbsp;</p>
+<p>链接：</p>
+<ul>
+<li>行内式：<br>  <a href="https://www.bilibili.com/" title="点击跳转至B站">B站</a></li>
+<li>参数式：<br>  <a href="https://www.bilibili.com/" title="点击跳转至B站">这也是B站</a></li>
+</ul>
+<p>这还是<a href="https://www.bilibili.com/">B站</a><br>&nbsp;</p>
+<p>图片：<br><img src="https://cdn.jsdelivr.net/gh/qyang2001/BlogImages@main/img/avatar.jpg" alt="图片1" title="一个可爱的头像"></p>
+<!-- ![](https://cdn.jsdelivr.net/gh/qyang2001/BlogImages@main/img/avatar.jpg) -->
+
+<p>图片太大了，用html语法来写，并修改尺寸：</p>
+<img src=https://cdn.jsdelivr.net/gh/qyang2001/BlogImages@main/img/avatar.jpg alt="图片替换文本" width="300" height="300" align="top"/>
+
+<p>&nbsp;</p>
+<p>代码：</p>
+<p>单行代码：<code>echo hello</code><br>多行代码：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello, World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;<br>字体<strong>加粗</strong><br>字体<em>倾斜</em><br>字体<del>删除</del></p>
+<p>转义符号 \ 的用法：<br>\ * - _ ! + ` .</p>
+<p>任务列表：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 任务1</li>
+<li><input checked="" disabled="" type="checkbox"> 任务2  </li>
+<li><input disabled="" type="checkbox"> 任务3</li>
+</ul>
+<p>&nbsp;<br>表格<br>表格1：</p>
+<table>
+<thead>
+<tr>
+<th align="left">name</th>
+<th align="center">age</th>
+<th align="right">gender</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">lisa</td>
+<td align="center">10</td>
+<td align="right">female</td>
+</tr>
+<tr>
+<td align="left">johny</td>
+<td align="center">11</td>
+<td align="right">male</td>
+</tr>
+<tr>
+<td align="left">mash</td>
+<td align="center">15</td>
+<td align="right">male</td>
+</tr>
+</tbody></table>
+<p>表格2：</p>
+<table>
+<thead>
+<tr>
+<th align="center">num</th>
+<th align="center">price</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center">$10</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">$20</td>
+</tr>
+</tbody></table>
+<p>&nbsp;<br>数学公式：</p>
+<p>$E&#x3D;mc^2$是质能方程。</p>
+<p>连续变量的概率公式为：<br>$$<br>p(x)&#x3D;\int f(x)dx.<br>$$</p>
+]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>test1</tag>
+        <tag>test2</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World（你好，世界）</title>
     <url>/2023/10/24/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -32,10 +150,9 @@
       </tags>
   </entry>
   <entry>
-    <title>资源</title>
-    <url>/resources/index.html</url>
-    <content><![CDATA[<p>这是我的知乎主页：<a href="https://www.zhihu.com/people/we-jane">知乎</a></p>
-]]></content>
+    <title>搜索</title>
+    <url>/search/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>分类</title>
@@ -48,8 +165,9 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>搜索</title>
-    <url>/search/index.html</url>
-    <content><![CDATA[]]></content>
+    <title>资源</title>
+    <url>/resources/index.html</url>
+    <content><![CDATA[<p>这是我的知乎主页：<a href="https://www.zhihu.com/people/we-jane">知乎</a></p>
+]]></content>
   </entry>
 </search>
