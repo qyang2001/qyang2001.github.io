@@ -1194,7 +1194,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #57d924;
+  background: #4657b4;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1559,6 +1559,15 @@ pre .javascript .function {
   line-height: 1;
   margin: -20px auto 15px;
   text-align: center;
+}
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  border-bottom: none;
+  text-decoration: underline;
 }
 .post-sticky-flag {
   display: inline-block;
@@ -1993,14 +2002,6 @@ pre .javascript .function {
 }
 #qr p {
   text-align: center;
-}
-.post-body a {
-  color: #0593d3;
-  border-bottom: none;
-}
-.post-body a:hover {
-  color: #0477ab;
-  text-decoration: underline;
 }
 .category-all-page .category-all-title {
   text-align: center;
