@@ -204,7 +204,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2023/10/24/test1/" class="post-title-link" itemprop="url">test1</a>
+            <a href="/2023/10/24/test1/" class="post-title-link" itemprop="url">test</a>
         </h2>
 
         <div class="post-meta">
@@ -221,7 +221,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-10-25 19:08:37" itemprop="dateModified" datetime="2023-10-25T19:08:37+08:00">2023-10-25</time>
+                <time title="修改时间：2023-10-26 15:00:01" itemprop="dateModified" datetime="2023-10-26T15:00:01+08:00">2023-10-26</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -229,7 +229,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%B5%8B%E8%AF%951/" itemprop="url" rel="index"><span itemprop="name">测试1</span></a>
+                  <a href="/categories/test/" itemprop="url" rel="index"><span itemprop="name">test</span></a>
                 </span>
             </span>
 
@@ -241,7 +241,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>507</span>
+              <span>497</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -260,9 +260,111 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="Hello"><a href="#Hello" class="headerlink" title="Hello"></a>Hello</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Nice to meet you.</span><br><span class="line">你好，很高兴遇见你。</span><br></pre></td></tr></table></figure>
+          <h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h1 id="这也是一级标题"><a href="#这也是一级标题" class="headerlink" title="这也是一级标题"></a>这也是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h2 id="这也是二级标题"><a href="#这也是二级标题" class="headerlink" title="这也是二级标题"></a>这也是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><!--分割线-->
+<hr>
+<p>&nbsp; <!--手动空行--><br>无序列表：</p>
+<ul>
+<li>1<ul>
+<li>1<ul>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+</li>
+<li>2</li>
+<li>3</li>
+</ul>
+</li>
+<li>2</li>
+<li>3</li>
+</ul>
+<p>&nbsp;<br>有序列表：</p>
+<ol>
+<li>西瓜<ol>
+<li>红壤</li>
+<li>黄壤</li>
+</ol>
+</li>
+<li>香蕉</li>
+<li>菠萝</li>
+</ol>
+<p>&nbsp;<br>引用:</p>
+<blockquote>
+<p>毛泽东：实事求是</p>
+<blockquote>
+<p>这是很多学校的校训</p>
+</blockquote>
+</blockquote>
+<p>&nbsp;</p>
+<p>链接：</p>
+<ul>
+<li>行内式：<br>  <a target="_blank" rel="noopener" href="https://www.bilibili.com/" title="点击跳转至B站">B站</a></li>
+<li>参数式：<br>  <a target="_blank" rel="noopener" href="https://www.bilibili.com/" title="点击跳转至B站">这也是B站</a></li>
+</ul>
+<p>&nbsp;</p>
+<p>图片：<br><img src="/./avatar.jpg" alt="图片1" title="一个可爱的头像"></p>
+<p>图片太大了，用html语法来写，并修改尺寸：</p>
+<img src=./avatar.jpg alt="图片替换文本" width="300" height="300" align="top"/>
 
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">GroupRandomHorizontalFlip</span>(<span class="title class_ inherited__">object</span>):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;Randomly horizontally flips the given PIL.Image with a probability of 0.5</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, is_flow=<span class="literal">False</span></span>):</span><br><span class="line">        self.is_flow = is_flow</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__call__</span>(<span class="params">self, img_group, is_flow=<span class="literal">False</span></span>):</span><br><span class="line">        v = random.random()</span><br><span class="line">        <span class="keyword">if</span> v &lt; <span class="number">0.5</span>:</span><br><span class="line">            ret = [img.transpose(Image.FLIP_LEFT_RIGHT) <span class="keyword">for</span> img <span class="keyword">in</span> img_group]</span><br><span class="line">            <span class="keyword">if</span> self.is_flow:</span><br><span class="line">                <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(ret), <span class="number">2</span>):</span><br><span class="line">                    ret[i] = ImageOps.invert(ret[i])  <span class="comment"># invert flow pixel values when flipping</span></span><br><span class="line">            <span class="keyword">return</span> ret</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> img_group</span><br></pre></td></tr></table></figure>
+<p>&nbsp;</p>
+<p>代码：</p>
+<p>单行代码：<code>echo hello</code><br>多行代码：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello, World!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>&nbsp;<br>字体<strong>加粗</strong><br>字体<em>倾斜</em><br>字体<del>删除</del></p>
+<p>转义符号 \ 的用法：<br>\ * - _ ! + ` .</p>
+<p>任务列表：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 任务1</li>
+<li><input checked="" disabled="" type="checkbox"> 任务2  </li>
+<li><input disabled="" type="checkbox"> 任务3</li>
+</ul>
+<p>&nbsp;<br>表格<br>表格1：</p>
+<table>
+<thead>
+<tr>
+<th align="left">name</th>
+<th align="center">age</th>
+<th align="right">gender</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">lisa</td>
+<td align="center">10</td>
+<td align="right">female</td>
+</tr>
+<tr>
+<td align="left">johny</td>
+<td align="center">11</td>
+<td align="right">male</td>
+</tr>
+<tr>
+<td align="left">mash</td>
+<td align="center">15</td>
+<td align="right">male</td>
+</tr>
+</tbody></table>
+<p>表格2：</p>
+<table>
+<thead>
+<tr>
+<th align="center">num</th>
+<th align="center">price</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">1</td>
+<td align="center">$10</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">$20</td>
+</tr>
+</tbody></table>
+<p>&nbsp;<br>数学公式：</p>
+<p>$E&#x3D;mc^2$是质能方程。</p>
+<p>连续变量的概率公式为：<br>$$\begin{equation}<br>p(x)&#x3D;\int f(x)dx.<br>\end{equation}$$</p>
+
       
     </div>
 
@@ -554,6 +656,8 @@
 
 
 
+
+  
 
   
 
