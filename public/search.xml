@@ -150,11 +150,6 @@
       </tags>
   </entry>
   <entry>
-    <title>分类</title>
-    <url>/categories/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>资源</title>
     <url>/resources/index.html</url>
     <content><![CDATA[<p>这是我的知乎主页：<a href="https://www.zhihu.com/people/we-jane">知乎</a></p>
@@ -163,6 +158,11 @@
   <entry>
     <title>标签</title>
     <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>分类</title>
+    <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>

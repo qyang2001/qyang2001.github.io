@@ -1194,7 +1194,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e879b5;
+  background: #fb0eff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1582,7 +1582,7 @@ pre .javascript .function {
   margin-top: 5px;
   margin-bottom: 0px;
   padding: 25px;
-  background: #fff none repeat scroll !important;
+  background: rgba(255,255,255,0.95) none repeat scroll !important;
 }
 .use-motion .pagination,
 .use-motion .comments {
@@ -2712,7 +2712,7 @@ mjx-container + br {
   }
 }
 body {
-  background: url("https://cdn.jsdelivr.net/gh/qyang2001/BlogImages@main/img/background.png");
+  background: url("https://cdn.jsdelivr.net/gh/qyang2001/BlogImages@main/img/deppsea.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
